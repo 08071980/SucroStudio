@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	                    		<title>Contatos</title>
+		<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="distribution" content="global">
+	<meta name="robots" content="index, follow">
+	<meta name="rating" content="general">
+	<meta name="author" content="comunidades.net">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://est.no.comunidades.net/estilos/style100/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="estilo.css?ver=1582938074" type="text/css" /><link rel="stylesheet" href="body.css" type="text/css" />
+	<link rel="stylesheet" href="https://est.no.comunidades.net/estilos/style100/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="https://est.no.comunidades.net/estilos/style100/css/app-landing/app-landing.css" type="text/css" />
+	<link rel="stylesheet" href="https://est.no.comunidades.net/estilos/style100/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="https://est.no.comunidades.net/estilos/style100/css/animate.css" type="text/css" />
+        <link rel="stylesheet" href="https://est.no.comunidades.net/estilos/style100/css/app-landing/css/fonts.css" type="text/css" />
+        <link rel="stylesheet" href="https://est.no.comunidades.net/estilos/style100/css/responsive.css" type="text/css" />
+
+	<script type="text/javascript" src="https://est.no.comunidades.net/estilos/style100/js/jquery.js"></script>
+<style type="text/css">
+#DivWeatherWidgetFX {display:none !important; visibility:hidden !important;}
+</style>
+
+
+<!-- Open Graph -->
+<meta property="og:title" content="Contatos" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="http://sucrostudio.comunidades.net/contatos">
+
+<!-- Schema.org markup -->
+<meta itemprop="name" content="Contatos">
+<meta itemprop="description" content="">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://sucrostudio.comunidades.net/contatos">
+<meta name="twitter:title" content="Contatos">
+<meta name="twitter:description" content="">
+
+</head>
+
+<body class="stretched">
+	<div id="wrapper" class="clearfix">
+		<header id="header" class="transparent-header dark" data-sticky-class="not-dark" data-responsive-class="not-dark">
+			<div id="header-wrap">
+				<div class="container clearfix">
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<div id="logo">
+					</div>
+
+					<nav id="primary-menu" class="not-dark">
+						<ul>
+                                                <li><a href="/">Sucro Studio Comunidade</a>
+                                        <li><a href="livro-engenharia-de-processos-de-separacao"><div>Livro Engenharia de Processos de Separação</div></a>
+                        </li>                                        <li><a href="fotos"><div>Fotos</div></a>
+                        </li>                                        <li><a href="processo-industrial"><div>Processo Industrial</div></a>
+                        <ul>                                <li><a href="extracao"><div>Extração</div></a></li>
+                                                        <li><a href="caldeira"><div>Caldeira</div></a></li>
+                                                        <li><a href="gerador"><div>Gerador</div></a></li>
+                                                        <li><a href="tratamento-de-caldo"><div>Tratamento de Caldo</div></a></li>
+                                                        <li><a href="fermentacao"><div>Fermentação</div></a></li>
+                                                        <li><a href="destilacao"><div>Destilação</div></a></li>
+                                                        <li><a href="parque-de-etanol"><div>Parque de Etanol</div></a></li>
+                        </ul></li>                                        <li><a href="publique-suas-ideias"><div>Publique suas Ideias</div></a>
+                        							<li><a href="contatos"><div>Contatos</div></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+                <section id="page-title" class="page-title-parallax">
+                        <div class="container center">
+                                <h1 data-animate="fadeInUp">Contatos</h1>
+                        </div>
+                        <div class="image-parallax" style="background-image: url('https://host2.comunidades.net/images/midia.jpg');"></div>
+                </section>
+
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+					<div class="row clearfix">
+                                                <div class="col-lg-12">
+							                                                </div>
+						<div class="col-lg-12">
+<font class='titulo'>Contatos</font>
+<br><br>
+<font class='texto'><p><a href="https://www.sucrostudio.com.br">https://www.sucrostudio.com.br</a></p>
+<p><a href="mailto:jeremias@sucrostudio.com.br">jeremias@sucrostudio.com.br</a></p>
+<p><a title="Sucro Studio Social" href="https://www.makeanet.com/Nueva_Cuenta.aspx?IDRed=36017" target="_blank" rel="noopener noreferrer">Sucro Studio Social</a></p></font>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer" class="dark">
+			<div class="container">
+				<div class="footer-widgets-wrap clearfix">
+					<div class="row clearfix">
+						<div class="col-md-6"><div id="share_txt">Tradutor</div><!--wdA_start-->
+<div style="padding: 0px 0px 30px 0px">
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Cen&en=pt&en=UTF8'); return false;" title="Translate to English "><img style="cursor: pointer; width: 30px; height: 30px; margin:0 3px 10px 0" alt="Translate to English" src="https://est.no.comunidades.net/services/widgets/4/English.png" title="Translate to English"></a>
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Ces&hl=pt&ie=UTF8'); return false;" title="Translate to Spanish "><img style="cursor: pointer; width: 30px; height: 30px; margin:0 3px 10px 0" alt="Translate to Spanish" src="https://est.no.comunidades.net/services/widgets/4/Spain.png" title="Translate to Spanish"></a>
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Cfr&hl=pt&ie=UTF8'); return false;" title="Translate to French "><img style="cursor: pointer; width: 30px; height: 30x; margin:0 3px 10px 0" alt="Translate to French" src="https://est.no.comunidades.net/services/widgets/4/France.png" title="Translate to French"></a>
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Cde&hl=pt&ie=UTF8'); return false;" title="Translate to German"><img style="cursor: pointer; width: 30px; height: 30px; margin:0 3px 10px 0" alt="Translate to German" src="https://est.no.comunidades.net/services/widgets/4/Germany.png" title="Translate to German"></a>
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Cit&hl=pt&ie=UTF8'); return false;" title="Translate to Italian"><img alt="Translate to Italian" style="cursor: pointer; width: 30px; height: 30px; margin:0 3px 10px 0" src="https://est.no.comunidades.net/services/widgets/4/Italy.png" title="Translate to Italian"></a>
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Cru&hl=pt&ie=UTF8'); return false;" title="Translate to Russian"><img style="cursor: pointer; width: 30px; height: 30px; margin:0 3px 10px 0" alt="Translate to Russian" src="https://est.no.comunidades.net/services/widgets/4/Russian.png" title="Translate to Russian"></a>
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Czh-CN&hl=pt&ie=UTF8'); return false;" title="Translate to Chinese"><img style="cursor: pointer; width: 30px; height: 30px; margin:0 3px 10px 0" alt="Translate to Chinese" src="https://est.no.comunidades.net/services/widgets/4/China.png" title="Translate to Chinese"></a>
+<a target="_blank" rel="nofollow" onClick="window.open('https://translate.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=pt%7Cja&hl=pt&ie=UTF8'); return false;" title="Translate to Japanese"><img style="cursor: pointer; width: 30px; height: 30px; margin:0 3px 10px 0" alt="Translate to Japanese" src="https://est.no.comunidades.net/services/widgets/4/Japan.png" title="Translate to Japanese"></a>
+</div>
+<!--wdA_end--></div><div class="col-md-6">
+<script>
+(function(r, d, s) {
+	r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function(p) {
+		var js, sjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(p.id)) { return; }
+		js = d.createElement(s);
+		js.id = p.id;
+		js.src = p.scriptToLoad;
+		js.onload = p.callback
+		sjs.parentNode.insertBefore(js, sjs);
+	};
+	var p = {
+		scriptToLoad: 'https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js',
+		id: 'skype_web_sdk'
+	};
+	r.loadSkypeWebSdkAsync(p);
+})(window, document, 'script');
+</script>
+
+<div align="left">
+  <link rel="stylesheet" href="https://est.no.comunidades.net/services/sharebar/style/st5.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="https://est.no.comunidades.net/services/sharebar/style/28.css" type="text/css" media="screen">
+  <div id="share_txt">Partilhe esta Página</div>
+  <table border="0" cellpadding="0" cellspacing="0"><tr><td>
+    <div id="share">
+        <li class="share01 icon_share"><a target="popup" href="https://www.facebook.com/sharer.php?u=http://sucrostudio.comunidades.net/contatos&amp;t=Sucro Studio Comunidade" onclick="window.open('https://www.facebook.com/sharer.php?u=http://sucrostudio.comunidades.net/contatos&amp;t=Sucro Studio Comunidade','popup','width=600,height=500'); return false;" title="Partilhar no Facebook">Facebook</a></li>
+        <li class="share02 icon_share"><a target="popup" href="https://twitter.com/share?url=http://sucrostudio.comunidades.net/contatos&amp;text=Sucro Studio Comunidade" onclick="window.open('https://twitter.com/share?url=http://sucrostudio.comunidades.net/contatos&amp;text=Sucro Studio Comunidade','popup','width=600,height=500'); return false;" title="Partilhar no Twitter">Twitter</a></li>
+        <li class="share03 icon_share"><a target="popup" href="https://plus.google.com/share?url=http://sucrostudio.comunidades.net/contatos" onclick="window.open('https://plus.google.com/share?url=http://sucrostudio.comunidades.net/contatos','popup','width=600,height=500'); return false;" title="Partilhar no Google+">Google+</a></li>
+        <li class="share04 icon_share"><a target="_blank" href="https://pinterest.com/pin/create/link/?url=http://sucrostudio.comunidades.net/contatos&amp;description=Sucro Studio Comunidade" title="Partilhar no Pinterest">Pinterest</a></li>
+        <li class="share05 icon_share"><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://sucrostudio.comunidades.net/contatos&amp;title=Sucro Studio Comunidade" title="Partilhar no Linked In">Linked In</a></li>
+        <li class="share06 icon_share"><a target="popup" href="https://www.tumblr.com/share/link?url=http://sucrostudio.comunidades.net/contatos" title="Partilhar no Tumblr">Tumblr</a></li>
+	<li class="share07 icon_share"><a target="_blank" href="https://digg.com/submit?url=http://sucrostudio.comunidades.net/contatos" title="Partilhar no Digg">Digg</a></li>
+	<li class="share08 icon_share"><a target="_blank" href="https://reddit.com/submit?url=http://sucrostudio.comunidades.net/contatos&amp;title=Sucro Studio Comunidade" title="Partilhar no Reddit">Reddit</a></li>
+        <li class="share09 icon_share"><a target="_blank" href="https://www.stumbleupon.com/submit?url=http://sucrostudio.comunidades.net/contatos&amp;title=Sucro Studio Comunidade" title="Partilhar no StumbleUpon">Stumbleupon</a></li>
+        <li class="share10 icon_share"><a target="_blank" href="https://del.icio.us/post?url=http://sucrostudio.comunidades.net/contatos&amp;title=Sucro Studio Comunidade" title="Partilhar no Delicious">Delicious</a></li>
+        <li class="share11 icon_share"><a target="_blank" href="https://bufferapp.com/add?url=http://sucrostudio.comunidades.net/contatos&amp;text=Sucro Studio Comunidade" title="Partilhar no Buffer">Buffer</a></li>
+        <li class="share12 icon_share"><a target="popup" href="https://vkontakte.ru/share.php?url=http://sucrostudio.comunidades.net/contatos" onclick="window.open('https://vkontakte.ru/share.php?url=http://sucrostudio.comunidades.net/contatos','popup','width=600,height=500'); return false;" title="Partilhar no VK">VK</a></li>
+        <li class="share13 icon_share"><a target="_blank" href="whatsapp://send?text=http://sucrostudio.comunidades.net/contatos" title="WhatsApp">WhatsApp</a></li>
+        <li><div class="skype-share share14 icon_skype" data-href="http://sucrostudio.comunidades.net/contatos" data-lang="pt-BR" data-text="Sucro Studio Comunidade">Skype</div></li>
+        <li class="share15 icon_share"><a target="_blank" href="viber://forward?text=http://sucrostudio.comunidades.net/contatos" title="Viber">Viber</a></li>
+        <li class="share16 icon_share"><a target="_blank" href="mailto:?Subject=Sucro Studio Comunidade&amp;Body=http://sucrostudio.comunidades.net/contatos" title="Enviar por Email">Email</a></li>
+    </div>
+  </td></tr></table>
+</div>
+</div>                                        </div>
+				</div>
+			</div>
+			<div id="copyrights">
+				<div class="container center uppercase clearfix">
+					<div align="center" id="pub-footer">
+<style type="text/css">
+#DivWeatherWidgetFX {display:none !important; visibility:hidden !important;}
+#pub-topo .pub-left{padding-right:20px;}
+
+@media screen and (max-width:600px){
+  #pub-topo .pub-left{display:none;visibility:hidden;padding-right:0px;}
+  .pub_iframe1{display:none; visibility:hidden}
+  .ads_bazyou{width:300px;height:250px;}
+}
+@media screen and (max-width:800px) and (min-width: 600px){
+   #pub-topo .pub-left{display:none;visibility:hidden;padding-right:0px;}
+  .pub_iframe1{display:none; visibility:hidden}
+  .ads_bazyou{width:480px;height:60px;}
+}
+@media screen and (max-width:1200px) and (min-width: 800px){
+   #pub-topo .pub-left{display:none;visibility:hidden;padding-right:0px;}
+  .pub_iframe1{display:initial; visibility:visible}
+  .ads_bazyou{width:728px;height:90px;}
+}
+@media screen and (min-width:1200px){
+  .pub_iframe1{display:initial; visibility:visible}
+  .ads_bazyou{width:728px;height:90px;}
+}
+</style>
+
+<div align="center" style="font-family:Verdana, Geneva, sans-serif;font-size:14px;text-transform:none !important;line-height:22px;">
+<a class="sites" style="font-size:14px !important;text-decoration:none;font-weight:normal;" href="https://sites.comunidades.net/registo" target="_blank">Criar um Site Grátis Incrível</a>
+&nbsp;-&nbsp;
+<a class="sites" style="font-size:14px !important;text-decoration:none;font-weight:normal;" href="https://nloja.com/pt/" target="_blank">Criar uma Loja online Grátis</a>
+&nbsp;-&nbsp;
+<a class="sites" style="font-size:14px !important;text-decoration:none;font-weight:normal;" href="https://sites.comunidades.net/" target="_blank">Descubra como Criar um Site Grátis</a>
+&nbsp;-&nbsp;
+<a class="sites" style="font-size:14px !important;text-decoration:none;font-weight:normal;" href="https://nloja.com/br/" target="_blank">Criar uma Loja Virtual Grátis</a>
+</div>
+</div>
+<script type="text/javascript" id="bazzoaToolBar" src="https://js.comunidades.net/ciber/toolbar.js" analytics="comunidades"></script>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<script type="text/javascript" src="https://est.no.comunidades.net/estilos/style100/js/plugins.js"></script>
+	<script type="text/javascript" src="https://est.no.comunidades.net/estilos/style100/js/functions.js"></script>
+
+</body>
+</html>
