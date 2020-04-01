@@ -1,0 +1,127 @@
+programa 
+
+{
+	
+	funcao inicio() 
+	
+	{
+	
+
+	cadeia status
+	
+	
+
+	escreva("EMITENTE - RESPONSÁVEL PELA ÁREA E EQUIPAMENTO\n ")
+	
+	
+
+	escreva("Realizar o Bloqueio de Energias Perigosas?\n ")
+	
+	leia(status)
+	
+	escreva("Providenciar iluminação adequada ao local de trabalho?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar a necessidade de aceiros - caminhão-pipa no local?\n ")
+	
+	leia(status)
+	
+	escreva("Limpar, isolar e Sinalizar área de trabalho?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar posição do caminhão na oficina?\n ")
+	
+	leia(status)
+	
+	escreva("Informar pessoal da área e arredores?\n ")
+	
+	leia(status)
+	
+	
+
+	escreva("RESPONSÁVEL PELA EXECUÇÃO DO TRABALHO\n ")
+	
+	
+
+	escreva("Garantir que todos os equipamentos permaneçam com 0 energia?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar dispositivo de segurança?\n ")
+	
+	leia(status)
+	
+	escreva("Remover cabos de bateria?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar condições das ferramentas manuais?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar se os EPIs estão adequados e em perfeitas condições?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar presença de comboio (200 metros)?\n ")
+	
+	leia(status)
+	
+	
+
+	escreva("TRABALHO A QUENTE\n ")
+	
+
+	
+	escreva("Detectar presença de produtos ou gases tóxicos / inflamáveis?\n ")
+	
+	leia(status)
+
+	escreva("Oxigênio %:\n ")
+	leia(status)
+	escreva("Inflamáveis %:\n ")
+	leia(status)
+	escreva("CO ppm:\n ")
+	leia(status)
+	escreva("Gases e vapores tóxicos ppm:\n ")
+	leia(status)
+	escreva("Remover materiais combustíveis das imediações?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar equipamentos de combate a incêndios?\n ")
+	
+	leia(status)
+	
+	escreva("Verificar mangueiras, conexões, válvulas corta-chamas de oxigênio e acetileno?\n ")
+	
+	leia(status)
+	escreva("Molhar a palha do solo antes da execução do trabalho e realizar rescaldo após?\n ")
+	leia(status)
+
+	escreva("Inertizar equipamentos / tanques combustível?\n ")
+	leia(status)
+	escreva("Realizar avaliação inicial da atmosfera?\n ")	
+	leia(status)
+
+	escreva("TRABALHO EM ALTURA\n ")
+
+	escreva("Avaliar risco de queda de objetos sobre pessoas / equipamentos?\n ")
+	leia(status)
+	escreva("Verificar local para acoplar cinto (colhedora, caminhão, equipamentos)?\n ")
+	leia(status)
+	escreva("Verificar equipamento de segurança(cinto com talabarte duplo, cabo-guia e etc.)?\n ")
+	leia(status)
+	escreva("Verificar se as condições de acesso são adequadas?\n ")
+	leia(status)
+	escreva("Verificar isolamento e sinalização da área?\n ")
+	leia(status)
+	escreva("Os profissionais envolvidos são treinados para resgate? Estão capacitados?\n ")
+	leia(status)
+	escreva("Estão capacitados para trabalho em altura?\n ")
+	leia(status)
+	}
+
+}
