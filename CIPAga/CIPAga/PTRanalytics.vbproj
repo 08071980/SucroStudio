@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF921FF1-D9DD-4D71-96C2-A80758B73246}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CIPAga.My.MyApplication</StartupObject>
+    <RootNamespace>CIPAga</RootNamespace>
+    <AssemblyName>CIPAga</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CIPAga.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CIPAga.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aceiros.Designer.vb">
+      <DependentUpon>Aceiros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Aceiros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Almoxarifado.Designer.vb">
+      <DependentUpon>Almoxarifado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Almoxarifado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caldeira.Designer.vb">
+      <DependentUpon>Caldeira.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caldeira.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caldeiraria.Designer.vb">
+      <DependentUpon>Caldeiraria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caldeiraria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConstrucaoCivil.Designer.vb">
+      <DependentUpon>ConstrucaoCivil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConstrucaoCivil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DestilariaLocal.Designer.vb">
+      <DependentUpon>DestilariaLocal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DestilariaLocal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DireitoDeRecusa.Designer.vb">
+      <DependentUpon>DireitoDeRecusa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DireitoDeRecusa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eletrica.Designer.vb">
+      <DependentUpon>Eletrica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Eletrica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnergiasPerigosas.Designer.vb">
+      <DependentUpon>EnergiasPerigosas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EnergiasPerigosas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extracao.Designer.vb">
+      <DependentUpon>Extracao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extracao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtracaoTela.Designer.vb">
+      <DependentUpon>ExtracaoTela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExtracaoTela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FabricaDeEtanol.Designer.vb">
+      <DependentUpon>FabricaDeEtanol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FabricaDeEtanol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FatorDeRisco.Designer.vb">
+      <DependentUpon>FatorDeRisco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FatorDeRisco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FermentacaoLocal.Designer.vb">
+      <DependentUpon>FermentacaoLocal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FermentacaoLocal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmlTelaLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmlTelaLogin.Designer.vb">
+      <DependentUpon>fmlTelaLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\fmlTelaPrincipal.Designer.vb">
+      <DependentUpon>fmlTelaPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\fmlTelaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficos.Designer.vb">
+      <DependentUpon>Graficos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Graficos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IluminacaoAdequada.Designer.vb">
+      <DependentUpon>IluminacaoAdequada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IluminacaoAdequada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instrumentacao.Designer.vb">
+      <DependentUpon>Instrumentacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Instrumentacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratorio.Designer.vb">
+      <DependentUpon>Laboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Limpar.Designer.vb">
+      <DependentUpon>Limpar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Limpar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapaPermissoes.Designer.vb">
+      <DependentUpon>MapaPermissoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapaPermissoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mecanica.Designer.vb">
+      <DependentUpon>Mecanica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mecanica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicaoDeGases.Designer.vb">
+      <DependentUpon>MedicaoDeGases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MedicaoDeGases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pare.Designer.vb">
+      <DependentUpon>Pare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PareDireitoDeRecusa.Designer.vb">
+      <DependentUpon>PareDireitoDeRecusa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PareDireitoDeRecusa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParqueQuimicoLocal.Designer.vb">
+      <DependentUpon>ParqueQuimicoLocal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParqueQuimicoLocal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreparoDeCanaLocal.Designer.vb">
+      <DependentUpon>PreparoDeCanaLocal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreparoDeCanaLocal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreparoTela.Designer.vb">
+      <DependentUpon>PreparoTela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreparoTela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processar.Designer.vb">
+      <DependentUpon>Processar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR3388Destilaria.Designer.vb">
+      <DependentUpon>PTR3388Destilaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR3388Destilaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR4457TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR4457TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR4457TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR4466TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR4466TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR4466TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR4467TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR4467TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR4467TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5326TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5326TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5326TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5327TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5327TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5327TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5329TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5329TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5329TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5339TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5339TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5339TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5341Destilaria.Designer.vb">
+      <DependentUpon>PTR5341Destilaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5341Destilaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5342Fermentacao.Designer.vb">
+      <DependentUpon>PTR5342Fermentacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5342Fermentacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR0001PreparoDeCana.Designer.vb">
+      <DependentUpon>PTR0001PreparoDeCana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR0001PreparoDeCana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5049ParqueQuimico.Designer.vb">
+      <DependentUpon>PTR5049ParqueQuimico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5049ParqueQuimico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5320TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5320TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5320TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5340Fermentacao.Designer.vb">
+      <DependentUpon>PTR5340Fermentacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5340Fermentacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5347TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5347TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5347TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5348TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5348TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5348TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR5380TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR5380TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR5380TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR9001Fermentacao.Designer.vb">
+      <DependentUpon>PTR9001Fermentacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR9001Fermentacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTR9051TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>PTR9051TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTR9051TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTRdigital.Designer.vb">
+      <DependentUpon>PTRdigital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PTRdigital.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOS.Designer.vb">
+      <DependentUpon>SOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Terno1Tela.Designer.vb">
+      <DependentUpon>Terno1Tela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Terno1Tela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TratamentoDeCaldo.Designer.vb">
+      <DependentUpon>TratamentoDeCaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TratamentoDeCaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TratamentoDeCaldoLocal.Designer.vb">
+      <DependentUpon>TratamentoDeCaldoLocal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TratamentoDeCaldoLocal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usinagem.Designer.vb">
+      <DependentUpon>Usinagem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usinagem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VencimentosNRsASO.Designer.vb">
+      <DependentUpon>VencimentosNRsASO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VencimentosNRsASO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Aceiros.resx">
+      <DependentUpon>Aceiros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Almoxarifado.resx">
+      <DependentUpon>Almoxarifado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caldeira.resx">
+      <DependentUpon>Caldeira.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caldeiraria.resx">
+      <DependentUpon>Caldeiraria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConstrucaoCivil.resx">
+      <DependentUpon>ConstrucaoCivil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DestilariaLocal.resx">
+      <DependentUpon>DestilariaLocal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DireitoDeRecusa.resx">
+      <DependentUpon>DireitoDeRecusa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eletrica.resx">
+      <DependentUpon>Eletrica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnergiasPerigosas.resx">
+      <DependentUpon>EnergiasPerigosas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extracao.resx">
+      <DependentUpon>Extracao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtracaoTela.resx">
+      <DependentUpon>ExtracaoTela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FabricaDeEtanol.resx">
+      <DependentUpon>FabricaDeEtanol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FatorDeRisco.resx">
+      <DependentUpon>FatorDeRisco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FermentacaoLocal.resx">
+      <DependentUpon>FermentacaoLocal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmlTelaLogin.resx">
+      <DependentUpon>fmlTelaLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\fmlTelaPrincipal.resx">
+      <DependentUpon>fmlTelaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficos.resx">
+      <DependentUpon>Graficos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IluminacaoAdequada.resx">
+      <DependentUpon>IluminacaoAdequada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrumentacao.resx">
+      <DependentUpon>Instrumentacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratorio.resx">
+      <DependentUpon>Laboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Limpar.resx">
+      <DependentUpon>Limpar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapaPermissoes.resx">
+      <DependentUpon>MapaPermissoes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mecanica.resx">
+      <DependentUpon>Mecanica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicaoDeGases.resx">
+      <DependentUpon>MedicaoDeGases.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pare.resx">
+      <DependentUpon>Pare.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PareDireitoDeRecusa.resx">
+      <DependentUpon>PareDireitoDeRecusa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParqueQuimicoLocal.resx">
+      <DependentUpon>ParqueQuimicoLocal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreparoDeCanaLocal.resx">
+      <DependentUpon>PreparoDeCanaLocal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreparoTela.resx">
+      <DependentUpon>PreparoTela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processar.resx">
+      <DependentUpon>Processar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR0001PreparoDeCana.resx">
+      <DependentUpon>PTR0001PreparoDeCana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR3388Destilaria.resx">
+      <DependentUpon>PTR3388Destilaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR4457TratamentoDeCaldo.resx">
+      <DependentUpon>PTR4457TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR4466TratamentoDeCaldo.resx">
+      <DependentUpon>PTR4466TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR4467TratamentoDeCaldo.resx">
+      <DependentUpon>PTR4467TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5049ParqueQuimico.resx">
+      <DependentUpon>PTR5049ParqueQuimico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5320TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5320TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5326TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5326TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5327TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5327TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5329TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5329TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5339TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5339TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5340Fermentacao.resx">
+      <DependentUpon>PTR5340Fermentacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5341Destilaria.resx">
+      <DependentUpon>PTR5341Destilaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5342Fermentacao.resx">
+      <DependentUpon>PTR5342Fermentacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5347TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5347TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5348TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5348TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR5380TratamentoDeCaldo.resx">
+      <DependentUpon>PTR5380TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR9001Fermentacao.resx">
+      <DependentUpon>PTR9001Fermentacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTR9051TratamentoDeCaldo.resx">
+      <DependentUpon>PTR9051TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTRdigital.resx">
+      <DependentUpon>PTRdigital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOS.resx">
+      <DependentUpon>SOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terno1Tela.resx">
+      <DependentUpon>Terno1Tela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TratamentoDeCaldo.resx">
+      <DependentUpon>TratamentoDeCaldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TratamentoDeCaldoLocal.resx">
+      <DependentUpon>TratamentoDeCaldoLocal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usinagem.resx">
+      <DependentUpon>Usinagem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VencimentosNRsASO.resx">
+      <DependentUpon>VencimentosNRsASO.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
