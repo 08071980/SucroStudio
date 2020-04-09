@@ -1,0 +1,12 @@
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\bin\Debug\CIPAga.exe.config
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\bin\Debug\CIPAga.exe
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\bin\Debug\CIPAga.pdb
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\bin\Debug\CIPAga.xml
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.vbprojAssemblyReference.cache
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.fmlTelaLogin.resources
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.Resources.resources
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.vbproj.GenerateResource.cache
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.exe
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.xml
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.pdb
+C:\Users\Rogério Jeremias\source\repos\CIPAga\CIPAga\obj\Debug\CIPAga.fmlTelaPrincipal.resources
